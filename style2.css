@@ -1,0 +1,43 @@
+th{
+    border: 3px solid black;
+}
+th:hover{
+    background-color: blueviolet;
+}
+
+.link:hover,
+.link:focus{
+    background-color: violet;
+}
+
+.link{
+    font-size: 50px;
+}
+
+.link2{
+    font-size: 50px;
+}
+
+.link2:visited{
+    color: red;
+}
+
+th:nth-child(odd){
+    color: red;
+}
+
+th:nth-child(even){
+    color: #134750;
+}
+
+th:nth-child(2n){
+    background-color: darkolivegreen;
+}
+
+th:nth-child(-n+2){
+    background-color: gold;
+}
+
+th:nth-child(3){
+    background-color: hotpink;
+}
